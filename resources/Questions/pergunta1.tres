@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizzQuestion" load_steps=2 format=3 uid="uid://cekrgawem3a5v"]
+
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="1_lnp3o"]
+
+[resource]
+script = ExtResource("1_lnp3o")
+question_text = "O que é o comunismo?"
+options = Array[String](["Um sistema econômico onde os meios de produção são de propriedade privada", "Um sistema político e econômico que busca a propriedade coletiva e a eliminação das classes sociais", "Um sistema onde apenas o governo possui empresas", "Uma forma de democracia direta"])
+correct_index = 1
+metadata/_custom_type_script = "uid://cuk8tkta81si1"

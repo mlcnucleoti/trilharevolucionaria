@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizzQuestion" load_steps=2 format=3 uid="uid://bpffg2yb00fv0"]
+
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="1_18ooi"]
+
+[resource]
+script = ExtResource("1_18ooi")
+question_text = "Qual é um dos principais objetivos do comunismo?"
+options = Array[String](["Criar uma sociedade sem classes sociais", "Aumentar os lucros das grandes empresas", "Estabelecer uma monarquia absoluta", "Privatizar todos os serviços públicos"])
+metadata/_custom_type_script = "uid://cuk8tkta81si1"

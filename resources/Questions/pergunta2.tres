@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizzQuestion" load_steps=2 format=3 uid="uid://cf8cu06ju4wx4"]
+
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="1_dxwo5"]
+
+[resource]
+script = ExtResource("1_dxwo5")
+question_text = "Quem foi o principal autor do 'Manifesto Comunista'?"
+options = Array[String](["Vladimir Lenin", "Joseph Stalin", "Karl Marx e Friedrich Engels", "Leon Trotsky"])
+correct_index = 2
+metadata/_custom_type_script = "uid://cuk8tkta81si1"

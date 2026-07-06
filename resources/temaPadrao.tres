@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="QuizzThemeComunismo" load_steps=8 format=3 uid="uid://dyxss4f1nmccq"]
+
+[ext_resource type="Script" uid="uid://0ayvgnmrfdu7" path="res://resources/theme.gd" id="1_iikne"]
+[ext_resource type="Resource" uid="uid://cekrgawem3a5v" path="res://resources/Questions/pergunta1.tres" id="2_jmb37"]
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="2_kmvuh"]
+[ext_resource type="Resource" uid="uid://cf8cu06ju4wx4" path="res://resources/Questions/pergunta2.tres" id="3_rj8vk"]
+[ext_resource type="Resource" uid="uid://y1rma8heogl3" path="res://resources/Questions/pergunta3.tres" id="4_4slri"]
+[ext_resource type="Resource" uid="uid://bpffg2yb00fv0" path="res://resources/Questions/pergunta4.tres" id="5_4slri"]
+[ext_resource type="Resource" uid="uid://cypoquq03xqyc" path="res://resources/Questions/pergunta5.tres" id="6_fnmmt"]
+
+[resource]
+script = ExtResource("1_iikne")
+questions = Array[ExtResource("2_kmvuh")]([ExtResource("2_jmb37"), ExtResource("3_rj8vk"), ExtResource("4_4slri"), ExtResource("5_4slri"), ExtResource("6_fnmmt")])
+metadata/_custom_type_script = "uid://0ayvgnmrfdu7"

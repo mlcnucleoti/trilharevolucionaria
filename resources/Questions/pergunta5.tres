@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizzQuestion" load_steps=2 format=3 uid="uid://cypoquq03xqyc"]
+
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="1_41k6t"]
+
+[resource]
+script = ExtResource("1_41k6t")
+question_text = "O que significa 'ditadura do proletariado' no pensamento comunista?"
+options = Array[String](["Um governo militar autoritário", "O domínio político da classe trabalhadora sobre a burguesia", "Um sistema onde os operários não têm direitos", "Uma forma de governo fascista"])
+correct_index = 1
+metadata/_custom_type_script = "uid://cuk8tkta81si1"

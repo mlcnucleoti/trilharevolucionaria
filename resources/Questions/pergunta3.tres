@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizzQuestion" load_steps=3 format=3 uid="uid://y1rma8heogl3"]
+
+[ext_resource type="Texture2D" uid="uid://c325hbn5qi2yu" path="res://sprites/91b1e4d6f46bff967a6fe6247794cc1c6c29a76c.png" id="1_kuoj6"]
+[ext_resource type="Script" uid="uid://cuk8tkta81si1" path="res://resources/question.gd" id="1_x4ac5"]
+
+[resource]
+script = ExtResource("1_x4ac5")
+question_text = "Qual foi o primeiro país a se tornar oficialmente comunista?"
+question_image = ExtResource("1_kuoj6")
+options = Array[String](["China", "Cuba", "União Soviética (Rússia)", "Vietnã"])
+correct_index = 2
+metadata/_custom_type_script = "uid://cuk8tkta81si1"
